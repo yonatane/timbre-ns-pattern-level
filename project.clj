@@ -1,4 +1,4 @@
-(defproject timbre-ns-pattern-level "0.1.1"
+(defproject timbre-ns-pattern-level "0.1.2"
   :description "Timbre middleware configuring log levels per namespace pattern"
   :url "https://github.com/yonatane/timbre-ns-pattern-level"
   :license {:name "The MIT License"
