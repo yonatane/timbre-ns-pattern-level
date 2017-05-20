@@ -1,6 +1,5 @@
 (ns timbre-ns-pattern-level
-  (:require [integrant.core :as ig]
-            [taoensso.encore]
+  (:require [taoensso.encore]
             [taoensso.timbre :as timbre]))
 
 (defn ns-filter [fltr] (-> fltr taoensso.encore/compile-ns-filter taoensso.encore/memoize_))
