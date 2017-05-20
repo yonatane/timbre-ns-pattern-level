@@ -6,7 +6,7 @@ Timbre middleware configuring log levels per namespace pattern.
 
 In project.clj:
 ```clj
-[timbre-ns-pattern-level "0.1.1"]
+[timbre-ns-pattern-level "0.1.2"]
 ```
 
 require:
