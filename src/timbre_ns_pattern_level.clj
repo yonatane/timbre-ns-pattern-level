@@ -15,6 +15,6 @@
                               (apply max-key count))
                      :all)
           loglevel (get ns-patterns namesp (get config :level))]
-      (when (and (taoensso.timbre/may-log? loglevel namesp)
+      (when (and (taoensso.timbre/may-log? level namesp)
                  (taoensso.timbre/level>= level loglevel))
         opts))))
